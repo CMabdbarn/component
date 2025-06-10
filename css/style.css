@@ -20,7 +20,7 @@ img {
     height: 100px;
     width: 200px;
 }
-article {
+.content {
     width: 650px;
     border: 1px solid #dcdcdc;
     padding: 40px ;
@@ -42,6 +42,9 @@ nav.sidebar a {
 }
 nav.sidebar a:hover {
     background-color: #00b4d8;
+}
+nav.sidebar a.active{
+    background-color: blue;
 }
 
 footer {
